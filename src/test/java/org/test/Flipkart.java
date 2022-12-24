@@ -24,20 +24,18 @@ public class Flipkart extends BasePage {
 	@AfterClass
 	private void Afterclass() {
 	
-		System.out.println("Test Executed");
+		System.out.println("Tests Executed");
 
 	}
-	
-	
 	@BeforeMethod
 	private void Beformethod() {
-		System.out.println("\n Test Starts"+ new Date() );
+		System.out.println(" Test Starts"+ new Date() );
 
 	}
 	
 	@AfterMethod
 	private void AfterMethod() {
-		System.out.println(" \n Test Ends "+new Date());
+		System.out.println("  Test Ends "+new Date());
 
 	}
 	@Test
@@ -51,13 +49,12 @@ public class Flipkart extends BasePage {
 		click(l.getClosebtn());
 		sendkeys(l.getTxtBox(), "insta 360");
 		click(l.getScrbtn());
+		System.out.println(".........^_^..........");
 		
 		System.out.println("All products List");
+		System.out.println(".........^_^..........");
 		LpFlipkart.AllProducts();
 		
-		
-		
-
 	}
 	@Test
 	public static void productprice() {
@@ -70,7 +67,9 @@ public class Flipkart extends BasePage {
 		sendkeys(l.getTxtBox(), "insta 360");
 		click(l.getScrbtn());
 
+		System.out.println(".........^_^..........");
 		System.out.println("All products price");
+		System.out.println(".........^_^..........");
 		l.ProductPrice();
 
 	}
