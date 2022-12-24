@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-24T09:55:56Z" name="Default suite" finished-at="2022-12-24T09:57:12Z" duration-ms="75885">
+    <groups>
+    </groups>
+    <test started-at="2022-12-24T09:55:56Z" name="Default test" finished-at="2022-12-24T09:57:12Z" duration-ms="75885">
+      <class name="org.test.Flipkart">
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:org.test.Flipkart@7a5ceedd]" started-at="2022-12-24T09:55:56Z" name="Beforeclass" finished-at="2022-12-24T09:56:12Z" duration-ms="16187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method is-config="true" signature="Beformethod()[pri:0, instance:org.test.Flipkart@7a5ceedd]" started-at="2022-12-24T09:56:12Z" name="Beformethod" finished-at="2022-12-24T09:56:12Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beformethod -->
+        <test-method signature="productlist()[pri:0, instance:org.test.Flipkart@7a5ceedd]" started-at="2022-12-24T09:56:12Z" name="productlist" finished-at="2022-12-24T09:57:04Z" duration-ms="51390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productlist -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.test.Flipkart@7a5ceedd]" started-at="2022-12-24T09:57:04Z" name="AfterMethod" finished-at="2022-12-24T09:57:04Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="Beformethod()[pri:0, instance:org.test.Flipkart@7a5ceedd]" started-at="2022-12-24T09:57:04Z" name="Beformethod" finished-at="2022-12-24T09:57:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beformethod -->
+        <test-method signature="productprice()[pri:0, instance:org.test.Flipkart@7a5ceedd]" started-at="2022-12-24T09:57:04Z" name="productprice" finished-at="2022-12-24T09:57:12Z" duration-ms="8182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productprice -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.test.Flipkart@7a5ceedd]" started-at="2022-12-24T09:57:12Z" name="AfterMethod" finished-at="2022-12-24T09:57:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:org.test.Flipkart@7a5ceedd]" started-at="2022-12-24T09:57:12Z" name="Afterclass" finished-at="2022-12-24T09:57:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- org.test.Flipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
